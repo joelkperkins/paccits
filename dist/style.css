@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  font-family: "Ubuntu Light", "Century Gothic", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #393939;
+  background-color: #fff;
+}
+
+
+body {
+  padding-top: 10px;
+}
+h1 {
+  text-align: center;
+  margin: 1%;
+}
+
+h4 { 
+  color: white;
+  background-color: #326CB4;  
+  margin: 5px;
+}
+
+.actionBar {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  box-shadow: 10px 15px 39px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  display: flex;
+  align-content: flex-start;
+  justify-content: space-evenly;
+  background-color: #326CB4; 
+  /* border: 2px solid #1B274C; */
+}
+
+.searchBar{
+  height: 25%;
+  width: 25%;
+}
+
+.sortButton {
+  height: 25%;
+  width: 25%;
+}
+
+.addJobButton {
+  height: 25%;
+  width: 25%;
+}
+
+.jobList {
+  overflow: auto;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.jobCard {
+  text-align: center;
+  padding: 5px;
+  width: 30%;
+  margin: 5px 5px 13px 10px;
+  float: left;
+  font-size: 1em;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  background-color: #326CB4; 
+}
+
+.detailsButton {
+  width: 95%;
+}
